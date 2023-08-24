@@ -15,7 +15,7 @@ gem "simplecov", require: false
 gem "simplecov-cobertura", require: false
 
 # vendored gems
-gem "activesupport"
+gem "activesupport", ">= 6.1.7.5"
 gem "backports"
 gem "concurrent-ruby"
 gem "mechanize"
